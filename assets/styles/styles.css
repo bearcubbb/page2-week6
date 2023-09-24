@@ -1,0 +1,100 @@
+/* п о з и ц и о н и р о в а н и е */
+
+/* б л о ч н а я  м о д е л ь */
+
+body {
+    display: grid;
+    height: 1042px;
+    grid-template-areas:
+        "getstart getstart getstart sideimg"
+        "enters enters enters sideimg"
+        "agreement agreement agreement sideimg"
+        "signup signup signup sideimg"
+        "or or or sideimg"
+        "signin-buttons signin-buttons signin-buttons sideimg"
+        "footer footer footer footer";
+    grid-template-columns: 1fr 1fr 1fr 30%;
+    gap: 1rem;
+}
+
+.block1 {
+    width: 400px;
+    height: 638px;
+    margin-left: 175px;
+    margin-right: 175px;
+    margin-top: 202px;
+    margin-bottom: 202px;
+}
+
+.getstart {
+    grid-area: getstart;
+}
+
+.enters {
+    grid-area: enters;
+}
+
+.agreement {
+    grid-area: agreement;
+}
+
+.signup {
+    grid-area: signup;
+}
+
+.or {
+    display: grid;
+    grid-area: or;
+    height: 15.3px;
+    justify-content: center;
+    justify-items: stretch;
+}
+
+.signin-buttons {
+    grid-area: signin-buttons;
+}
+
+aside {
+    grid-area: sideimg;
+    width: 781.5px;
+}
+
+footer {
+    grid-area: footer;
+}
+
+/* т и п о г р а ф и к а */
+
+body {
+    color: #000;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+main p {
+    font-size: 32px;
+}
+
+.agreement {
+    font-size: 9px;
+}
+
+.signup {
+    font-weight: 700;
+}
+
+#signin {
+    color: #0F3DDE;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* о ф о р м л е н и е */
+
+/* а н и м а ц и я */
+
+/* р а з н о е */
